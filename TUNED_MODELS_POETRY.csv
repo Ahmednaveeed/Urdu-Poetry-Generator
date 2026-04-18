@@ -1,0 +1,19 @@
+﻿Model,Optimizer,Experiment,Generated_Text,Filename
+LSTM,RMSprop,Batch_256,محبت میں بس کہنا دو فولاد نہیں ہوتا چلے ہوں میں مری کار,Tuning_LSTM_RMSprop_Batch_256.keras
+LSTM,RMSprop,Drop_0.5,محبت اتنا کیا ہے ایک بے مشک کرتی ہے نماۓ جھگڑوں ہے بالین,Tuning_LSTM_RMSprop_Drop_0.5.keras
+LSTM,RMSprop,Epoch_50,محبت تھی کس تھی ادائے و مند ہوں نہ گریہ کی لالۂ میں,Tuning_LSTM_RMSprop_Epoch_50.keras
+LSTM,RMSprop,LR_0.0001,محبت پارس ذرا نہ ہو کو دل ابل را رہے آنکھ نے نے,Tuning_LSTM_RMSprop_LR_0.0001.keras
+LSTM,RMSprop,Layers_3,محبت تک تو ذقن راہ تو کسے کریں گا کوئی کچھ آتا ہے,Tuning_LSTM_RMSprop_Layers_3.keras
+RNN,Adam,Batch_256,محبت مجھے قرار اپنے آ سے کہا کیا جائیے ہے معلوم جو ہوگا,Tuning_RNN_Adam_Batch_256.keras
+RNN,Adam,Drop_0.5,محبت رہزن سلسلہ پھر میں نے تب کے کرامت کہنے کا اٹھتا کہ,Tuning_RNN_Adam_Drop_0.5.keras
+RNN,Adam,Epoch_50,محبت کسی شوخ دیکھوں ہے داغ جو اندر تمنا سے تیرے وعدے بھی,Tuning_RNN_Adam_Epoch_50.keras
+RNN,Adam,LR_0.0001,محبت میں ایسی بہ شکست عشق اکرام بھی فتح بار ہوئے نہ ہوں,Tuning_RNN_Adam_LR_0.0001.keras
+RNN,Adam,Layers_3,محبت باقی مری قرض لب آ جاتا مجھے دیکھتے ہیں فصاد نصیب آ,Tuning_RNN_Adam_Layers_3.keras
+Transformer,SGD,Batch_256,محبت کو کاٹ کے راہنما ہونے کے گزری کہیں آ گیا تھا تو,Tuning_Transformer_SGD_Batch_256.keras
+Transformer,SGD,Blocks_4,محبت و ذوق بکف جو عالم طفلاں تھا رنگ و پڑھوں کا کام,Tuning_Transformer_SGD_Blocks_4.keras
+Transformer,SGD,Dim_1024,محبت وہ غبار رنگ اشک ہے کوئی بات نہیں باقی ہے میاں کی,Tuning_Transformer_SGD_Dim_1024.keras
+Transformer,SGD,Drop_0.5,محبت ہے کہ چکیدن سی دوستی سے کہیں دل سے ہیں اور ابھی,Tuning_Transformer_SGD_Drop_0.5.keras
+Transformer,SGD,Epoch_50,محبت تو بھی شوق مجھے آج سے گھبرا گیا کرتے ہیں ترے در,Tuning_Transformer_SGD_Epoch_50.keras
+Transformer,SGD,Heads_8,محبت آپ یوں کر دے گیا اس کو نہیں تھی وہ کہیں خوف,Tuning_Transformer_SGD_Heads_8.keras
+Transformer,SGD,LR_0.0001,محبت صبح گر تعب اس زینہ ہیں بلبلہ تھا آئیں جھانکا بھاری میں,Tuning_Transformer_SGD_LR_0.0001.keras
+Transformer,SGD,Layers_3,محبت پلٹتے بارہا جانے گر دار فشاں ہونا ہے اور تو کیا کیجے,Tuning_Transformer_SGD_Layers_3.keras
