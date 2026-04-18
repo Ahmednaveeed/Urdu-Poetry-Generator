@@ -51,9 +51,12 @@ Poetry generation uses seed words as a starting point. To explore the trade-off 
 ```text
 ├── code/
 │   ├── base models.ipynb        # Data preprocessing, base models setup, and training
-│   └── hyperparameter.ipynb     # Hyperparameter isolation and targeted tuning experiments
-├── FINAL_POETRY_RESULTS.csv     # Model-generated verses from the baseline architectures
-├── TUNED_MODELS_POETRY.csv      # Model-generated verses from the specifically tuned models
+│   ├── hyperparameter.ipynb     # Hyperparameter isolation and targeted tuning experiments
+│   └── tokenizer.pkl            # Trained tokenizer model for text preprocessing
+├── docs/
+│   ├── FINAL_POETRY_RESULTS.csv # Model-generated verses from the baseline architectures
+│   ├── TUNED_MODELS_POETRY.csv  # Model-generated verses from the specifically tuned models
+│   └── report.pdf               # Comprehensive final project report
 └── README.md
 ```
 
@@ -61,13 +64,13 @@ Poetry generation uses seed words as a starting point. To explore the trade-off 
 
 1. Clone the repository:
    ```bash
-   git clone <your-repository-url>
-   cd <repository-name>
+   git clone https://github.com/Ahmednaveeed/Urdu-Poetry-Generator.git
+   cd Urdu-Poetry-Generator
    ```
 2. Make sure you have Jupyter Notebook or JupyterLab installed, along with standard data science and deep learning libraries (TensorFlow/Keras, Pandas, NumPy).
 3. Open `code/base models.ipynb` to view the data pipeline and initial training. 
-4. Check out the generated verse metrics and text in the corresponding `.csv` files.
+4. Check out the project report and generated verse metrics in the `docs/` folder.
 
 ## 📊 Results
 
-Feel free to browse `FINAL_POETRY_RESULTS.csv` and `TUNED_MODELS_POETRY.csv` to read the generated combinations. The results highlight how shifting from simple recurrence (RNN/LSTM) to Attention-based mechanisms (Transformers), alongside hyperparameter tweaking, distinctly changes the rhythm and quality of the generated Urdu poetry.
+Feel free to browse `docs/FINAL_POETRY_RESULTS.csv` and `docs/TUNED_MODELS_POETRY.csv` to read the generated combinations. The results highlight how shifting from simple recurrence (RNN/LSTM) to Attention-based mechanisms (Transformers), alongside hyperparameter tweaking, distinctly changes the rhythm and quality of the generated Urdu poetry.
