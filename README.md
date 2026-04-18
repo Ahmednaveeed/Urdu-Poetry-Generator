@@ -51,8 +51,7 @@ Poetry generation uses seed words as a starting point. To explore the trade-off 
 ```text
 ├── code/
 │   ├── base models.ipynb        # Data preprocessing, base models setup, and training
-│   ├── hyperparameter.ipynb     # Hyperparameter isolation and targeted tuning experiments
-│   └── tokenizer.pkl            # Trained tokenizer model for text preprocessing
+│   ├── hyperparameter.ipynb     # Hyperparameter isolation and targeted 
 ├── docs/
 │   ├── FINAL_POETRY_RESULTS.csv # Model-generated verses from the baseline architectures
 │   ├── TUNED_MODELS_POETRY.csv  # Model-generated verses from the specifically tuned models
@@ -74,3 +73,5 @@ Poetry generation uses seed words as a starting point. To explore the trade-off 
 ## 📊 Results
 
 Feel free to browse `docs/FINAL_POETRY_RESULTS.csv` and `docs/TUNED_MODELS_POETRY.csv` to read the generated combinations. The results highlight how shifting from simple recurrence (RNN/LSTM) to Attention-based mechanisms (Transformers), alongside hyperparameter tweaking, distinctly changes the rhythm and quality of the generated Urdu poetry.
+
+> **Note:** While the results improved significantly through extensive hyperparameter tuning and architecture upgrades, it is important to acknowledge that the models could not achieve absolute perfection. This is primarily because the dataset used was relatively small, whereas deep learning sequence models typically require massive text corpora to truly master the deep structural nuances of poetry.
